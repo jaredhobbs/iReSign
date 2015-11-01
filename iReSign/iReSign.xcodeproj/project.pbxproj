@@ -144,7 +144,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = nil;
+				ORGANIZATIONNAME = com.pyhacker.iReSign;
+				TargetAttributes = {
+					C115EE2513815024003B9ACC = {
+						DevelopmentTeam = ZA8G456PG3;
+					};
+				};
 			};
 			buildConfigurationList = C115EE2013815023003B9ACC /* Build configuration list for PBXProject "iReSign" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -268,6 +273,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -276,6 +282,7 @@
 				GCC_PREFIX_HEADER = "iReSign/iReSign-Prefix.pch";
 				INFOPLIST_FILE = "iReSign/iReSign-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyhacker.iReSign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,6 +293,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -294,6 +302,7 @@
 				GCC_PREFIX_HEADER = "iReSign/iReSign-Prefix.pch";
 				INFOPLIST_FILE = "iReSign/iReSign-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyhacker.iReSign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
